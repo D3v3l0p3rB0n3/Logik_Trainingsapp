@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">LuA_Trainingsapp</string>
+    <string name="menue">Menü</string>
+    <string name="random">Zufällige \nAufgabenauswahl</string>
+    <string name="specific">Gezielte \nAufgabenauswahl</string>
+    <string name="bool">Boolsche Algebra</string>
+    <string name="relation">Relationenalgebra</string>
+    <string name="all">Aufgaben aus allen Themengebieten</string>
+    <string name="listofall">Liste der Aufgaben nach Themengebiet</string>
+    <string name="randomheader">Zufällige Aufgabenauswahl</string>
+    <string name="relationalkeyboard">Tastatur für die Aufgaben zu Logik und Algebra</string>
+    <string name="keyboard">Logik und Algebra</string>
+    <string name="hint_rel_algebra">Bitte gebe deine Lösung ein</string>
+    <string name="correct_answer">Die Antwort ist korrekt</string>
+    <string name="help">\?</string>
+    <string name="hint_bool_term">Bitte gebe deinen Vereinfachungsschritt ein</string>
+    <string name="hint_bool_norm">Bitte gebe einen Umformungsschritt ein</string>
+    <string name="wrong_answer">Falsche Antwort</string>
+</resources>

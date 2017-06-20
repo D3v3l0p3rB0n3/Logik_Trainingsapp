@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tool.gym.lua_trainingsapp.Activities.MainActivity">
+    <LinearLayout
+        android:layout_gravity="top"
+        android:background="@color/Title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/titlesize">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/menue"
+            android:textColor="@color/TitleText"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold"
+            android:textSize="45dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7">
+        <LinearLayout
+            android:id= "@id/randomtasks"
+            android:orientation="vertical"
+            android:layout_gravity="start"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:onClick="onClick">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/random"
+                android:textColor="@color/Text"
+                android:fontFamily="sans-serif-light"
+                android:textSize="40dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:id= "@id/specifictasks"
+            android:orientation="vertical"
+            android:layout_gravity="end"
+            android:layout_height="match_parent"
+            android:background="@color/colorAccent"
+            android:layout_width="0dp"
+            android:layout_weight="5">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/specific"
+                android:textColor="@color/Text"
+                android:fontFamily="sans-serif-light"
+                android:textSize="40dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
