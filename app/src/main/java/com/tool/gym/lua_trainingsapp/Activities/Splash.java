@@ -24,6 +24,7 @@ public class Splash extends AppCompatActivity {
 
         //DB physisch anlegen
         db = new SQLiteDatabase(this);
+        
 
         int secondsDelayed = 1;
         new Handler().postDelayed(new Runnable() {
